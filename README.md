@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/oasisfeng/condom.svg?branch=master)](https://travis-ci.org/oasisfeng/condom)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+![maven-central](https://img.shields.io/maven-central/v/me.drakeet.oasisfeng/condom.svg)
 
 # Project Condom
 
@@ -11,6 +12,14 @@ on low to middle-end devices. This behavior has "chain reaction" effects among a
 the overall device performance.
 
 ## Quick Start
+
+In your `build.gradle`:
+
+```groovy
+dependencies {
+    compile 'me.drakeet.oasisfeng:condom:0.9.9'
+}
+```
 
 Most 3rd-party SDKs require explicit initialization with a `Context` instance, something like:
 
